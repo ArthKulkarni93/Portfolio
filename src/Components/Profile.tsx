@@ -14,7 +14,7 @@ function Photos() {
 
     return (
         <div className="">
-            <img className="h-48 w-full rounded-xl relative" src="src/assets/Background.jpg" alt="" />
+            <img className="h-48 w-full rounded-xl relative" src="https://github.com/ArthKulkarni93/Portfolio/blob/master/src/assets/Background.jpg?raw=true" alt="" />
             <img className="h-24 rounded-full absolute top-40 left-14 z-1 border border-white border-[4px] lg:left-30" src="https://avatars.githubusercontent.com/u/158561171?v=4" alt="" />
         </div>
     ) 
@@ -48,15 +48,15 @@ function Socials() {
         <div className="mt-10 grid grid-col">
             <div  className="w-1/3 flex flex-cols-3 justify-between ">
                 <a href="https://x.com/KulkarniArth">
-                    <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="src/assets/x2.svg" alt="" />
+                    <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="https://raw.githubusercontent.com/ArthKulkarni93/Portfolio/61bee69ff951acc906d364778f34bdd4dc946075/src/assets/x2.svg" alt="" />
                 </a>
 
                 <a href="https://www.linkedin.com/in/arth-kulkarni-b232bb1b3/">
-                        <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="src/assets/linkedin.webp" alt="" />
+                        <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="https://raw.githubusercontent.com/ArthKulkarni93/Portfolio/refs/heads/master/src/assets/linkedin.webp" alt="" />
                 </a>
 
                 <a href="https://github.com/ArthKulkarni93">
-                        <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="src/assets/github logo.png" alt="" />
+                        <img className="border rounded-full border-zinc-600 border-1 flex justify-center h-8 w-8 p-1" src="https://github.com/ArthKulkarni93/Portfolio/blob/master/src/assets/github%20logo.png?raw=true" alt="" />
                 </a>
             </div>
 
