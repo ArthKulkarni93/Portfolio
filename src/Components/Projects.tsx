@@ -7,7 +7,7 @@ export default function Projects() {
       link: 'https://github.com/ArthKulkarni93/Whatsapp-Clone',
     },
     {
-      pic: 'src/assets/Screenshot 2025-06-13 at 6.15.25 PM.png',
+      pic: 'https://github.com/ArthKulkarni93/Portfolio/blob/master/src/assets/Screenshot%202025-06-13%20at%206.15.25%E2%80%AFPM.png?raw=true',
       title: 'ProctorFlow',
       info: 'A secure, malpractice-free online platform where teachers can upload MCQ files and administer tests to students.',
       link: 'https://github.com/ArthKulkarni93/MP-sem-6',
