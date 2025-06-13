@@ -2,7 +2,7 @@
 export default function Profile() {
 
     return (
-        <div className="w-1/2 flex flex-col ">
+        <div className="w-full lg:w-1/2 lg:fixed">
             <Photos/>
             <Bio/>
             <Socials/>
@@ -15,7 +15,7 @@ function Photos() {
     return (
         <div className="">
             <img className="h-48 w-full rounded-xl relative" src="src/assets/Background.jpg" alt="" />
-            <img className="h-24 rounded-full absolute top-40 left-32 z-1 border border-white border-[4px]" src="https://avatars.githubusercontent.com/u/158561171?v=4" alt="" />
+            <img className="h-24 rounded-full absolute top-40 left-14 z-1 border border-white border-[4px] lg:left-30" src="https://avatars.githubusercontent.com/u/158561171?v=4" alt="" />
         </div>
     ) 
 }
@@ -23,16 +23,16 @@ function Photos() {
 function Bio() {
 
     return (
-        <div className=" mt-20">
+        <div className=" mt-12 lg:mt-16">
             <div className="text-black font-oswald **font-bold**  text-4xl pb-4">
                 ARTH KULKARNI.
             </div>
 
             <div>
-                <div className="text-lg font-light pb-4">
+                <div className="text-lg font-light pb-4 text-justify">
                     I'm Backend developer based in Maharashtra, India.
                 </div>
-                <div className="text-lg font-light">
+                <div className="text-lg font-light text-justify">
                     20, a developer who prefers working with systems, logic, and clean backends.
                     I believe in minimalism, both in <span className="text-indigo-500">design</span> and in <span className="text-rose-600">thinking</span>, and I’m continuously learning to stay relevant with evolving technologies.
                     I focus on what works, what lasts, and what makes sense.
