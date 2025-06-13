@@ -1,22 +1,18 @@
-import './index.css'
 import Profile from './Components/Profile';
-import Projects from './Components/Projects';
 import Techstack from './Components/Techstack';
+import Projects from './Components/Projects';
 
-function App() {
+export default function App() {
   return (
-    <div className="lg:flex lg:mx-20 m-5 ">
-      <div className='lg:w-1/2 w-full'>
-        <Profile/>
-      </div>
+    <div className="m-5 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <aside className="w-full lg:sticky lg:top-4 lg:h-[calc(100vh-2rem)] overflow-y-auto">
+        <Profile />
+      </aside>
 
-      <div className='mt-8 lg:w-1/2 w-full lg:ml-[155px] lg:mt-1 lg:pl-6 max-h-screen'>
-        <Techstack/>
-        <Projects/>
-      </div>
-
+      <main className="w-full space-y-12">
+        <Techstack />
+        <Projects />
+      </main>
     </div>
   );
 }
-
-export default App;
