@@ -2,7 +2,7 @@
 export default function Profile() {
 
     return (
-        <div className="w-full lg:w-1/2 lg:fixed">
+        <div className="w-full lg:w-[520px] lg:fixed lg:h-screen">
             <Photos/>
             <Bio/>
             <Socials/>
