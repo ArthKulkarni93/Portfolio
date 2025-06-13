@@ -15,7 +15,7 @@ function Photos() {
     return (
         <div className="">
             <img className="h-48 w-full rounded-xl relative" src="https://github.com/ArthKulkarni93/Portfolio/blob/master/src/assets/Background.jpg?raw=true" alt="" />
-            <img className="h-24 rounded-full absolute top-40 left-14 z-1 border border-white border-[4px] lg:left-30" src="src/assets/PXL_20250126_072630780.jpg" alt="" />
+            <img className="h-24 rounded-full absolute top-40 left-14 z-1 border border-white border-[4px] lg:left-30" src="https://github.com/ArthKulkarni93/Portfolio/blob/master/src/assets/PXL_20250126_072630780.jpg?raw=true" alt="" />
         </div>
     ) 
 }
